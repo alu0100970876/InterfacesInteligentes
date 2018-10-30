@@ -41,4 +41,4 @@ El código empleado con los delegados es el siguiente:
     }
  ```
  
- ![Video demo](ezgif-6-715560838218.gifezgif)
+ ![Video demo](ezgif-6-715560838218.gif)
