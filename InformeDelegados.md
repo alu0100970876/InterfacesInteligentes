@@ -50,3 +50,12 @@ El código empleado con los delegados es el siguiente:
  ```
  
  ![Video demo](ezgif-6-715560838218.gif)
+ 
+ La luz añadida como linterna se puede apagar y encender haciendo click en la tecla F.
+ ```csharp
+ void Update () {
+		if (Input.GetKey (KeyCode.F))
+			this.GetComponent<Light> ().enabled = !this.GetComponent<Light> ().enabled;
+	}
+ ```
+ ![Video demo](ezgif-6-a28cf5c00275.gif)
